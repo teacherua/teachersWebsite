@@ -253,3 +253,18 @@ body {
     background-image: radial-gradient(circle, #ffebcd, #ffb6c1, #ff69b4, #ff1493, #fuchsia); /* Example of colorful flower-like gradient */
     background-size: 100% 100%; /* Adjust size of gradient */
 }
+
+.development-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    z-index: 1000; /* Ensure it appears above other elements */
+    text-align: center;
+    width: 100%; /* Ensure it stretches across the bottom */
+}
