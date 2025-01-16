@@ -191,17 +191,65 @@ footer a:hover {
 }
 
 /* Resources Section */
+.resources {
+    padding: 40px 20px;
+    background-color: #f9f9f9;  /* Light background for the section */
+    border-radius: 10px;         /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    margin-top: 30px;            /* Adds space between other sections */
+}
+
 .resources h1 {
     font-size: 2.5em;
-    color: #007bff;
-    margin-bottom: 40px;
+    color: #007bff;       /* Blue color for heading */
+    margin-bottom: 20px;
+    text-align: center;   /* Centers the title */
 }
 
 .resources p {
     font-size: 1.2em;
-    color: #555;
+    color: #555;          /* Gray color for text */
     margin-bottom: 20px;
+    line-height: 1.6;      /* Improved readability */
+    text-align: center;   /* Centers the paragraph */
 }
+
+.resources h2 {
+    font-size: 1.8em;
+    color: #007bff;       /* Blue color for subheadings */
+    margin-top: 30px;     /* Adds space above subheadings */
+    text-align: center;
+}
+
+.resources ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.resources ul li {
+    margin: 15px 0;
+}
+
+.resources ul li a {
+    color: #007bff;  /* Blue color for links */
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    display: block;   /* Makes the link take up the entire width */
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.resources ul li a:hover {
+    color: #0056b3;  /* Darker blue when hovering */
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+.resources ul li a:active {
+    color: #004085;  /* Even darker blue when clicked */
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
