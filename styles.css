@@ -150,11 +150,12 @@ h2 {
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
+    text-align: right;
     padding: 20px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    right: 0;
 }
 
 footer p {
