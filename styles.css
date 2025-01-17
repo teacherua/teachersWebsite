@@ -153,9 +153,8 @@ footer {
     text-align: center;
     padding: 20px 0;
     position: fixed;
-    width: 50%;
+    width: 100%;
     bottom: 0;
-    right: 0;
 }
 
 footer p {
