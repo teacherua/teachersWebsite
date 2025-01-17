@@ -261,6 +261,9 @@ footer a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+     body {
+        padding: 10px; /* Less padding on mobile */
+    }
     header {
         flex-direction: column;
         text-align: center;
